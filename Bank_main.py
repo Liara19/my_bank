@@ -10,12 +10,7 @@ class Account():
     self.initial_balance = initial_balance
     self.timestamp = datetime.datetime.now()
 
-  @property #decorators
-  def account_number(self):
-    return self._account_number
-
-  @account_number.setter
-  def account_number(self):
+  def print_transaction():
     pass
 
 class Client:
